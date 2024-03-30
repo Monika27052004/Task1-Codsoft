@@ -1,0 +1,124 @@
+*{ margin: 0px;
+ font-family: 'Poppings',sans-serif;
+ box-sizing: border-box; 
+}
+body{
+    background-color: rgb(223, 216, 216);
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(223, 216, 216);
+    position: fixed;
+    top: 0px;
+    border-bottom: 2px solid black;
+}
+.nav-content {
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(56, 15, 15, 0.715);
+    display: flex;
+    justify-content: space-evenly;
+}
+.add-zero {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 24px;
+     color: rgb(211, 37, 37);
+     font-style: oblique;
+}
+.add {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(211, 37, 37);
+    margin-left: -27px;
+}
+.icon{
+    font-size: 30px;
+    margin-top: 11px;
+    margin-left: -20px;
+    color: rgb(82, 24, 24);
+}
+.add-first {
+    margin-left: 400px;
+}
+.add-first :hover{
+    background-color: rgb(210, 7, 7);
+}
+.add-second :hover{
+    background-color: rgb(210, 7, 7);
+}
+.add-third :hover{
+    background-color: rgb(210, 7, 7);
+}
+.add-fourth :hover{
+    background-color: rgb(210, 7, 7);
+}
+.add-fifth :hover{
+    background-color: rgb(210, 7, 7);
+}
+.front-page {
+    height: 300px;
+    width: 100%;
+}
+.text {
+    font-size: 60px;
+    color:white;
+    margin-top: -500px;
+    margin-left: 110px;
+}
+.sub-text {
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(235, 213, 158);
+    margin-left: 5px;
+}
+.try {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    color: rgb(135, 7, 7);
+    font-size: 27px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 8px;
+    margin-top: 15px;
+    text-decoration: solid;
+}
+ .menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    margin-top: 470px
+}
+.menu-item {
+    width: 30%;
+    background-color: rgba(192, 92, 92, 0.863);
+}
+h2 {
+    color: rgb(80, 9, 9);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+.about {
+    height: 300px;
+    width: 100%;
+}
+.end {
+    display: flex;
+}
